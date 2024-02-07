@@ -28,13 +28,13 @@ export default function Home() {
     <main className="overflow-hidden">
 
       <div>
-        <div className="bg-redstone xl:h-[400px] xl:w-[100%] blur-[2px]">
-          <div className="absolute bg-[#1BE0ED] xl:h-[400px] xl:w-screen bg-opacity-25"></div>
+        <div className="bg-redstone h-[400px] w-[100%] blur-[2px]">
+          <div className="absolute bg-[#1BE0ED] h-[400px] w-screen bg-opacity-25"></div>
         </div>
-        <p className="absolute xl:top-[130px] xl:left-1/2 xl:transform xl:-translate-x-1/2 xl:font-[900] xl:text-[40px] text-center xl:w-[1200px]">DAS SIND ALLE LINKS DIE DU AUF DEM <a className="text-[red] xl:hover:text-red-900" href="https://discord.gg/thejocraft">TJC-DISCORD</a> BENUTZEN KANNST</p>
+        <p className="absolute top-[130px] left-1/2 transform -translate-x-1/2 font-[900] text-[40px] text-center w-[1200px]">DAS SIND ALLE LINKS DIE DU AUF DEM <a className="text-[red] hover:text-red-900" href="https://discord.gg/thejocraft">TJC-DISCORD</a> BENUTZEN KANNST</p>
       </div>
 
-      <div className="xl:w-screen h-[1000px] bg-[#1C2525]">
+      <div className="w-screen h-[1000px] bg-[#1C2525]">
         
         <div className="relative w-[1400px] grid grid-cols-2 gap-8 top-[70px] left-1/2 transform -translate-x-1/2 ml-[140px]">
           {links.map((link, index) => (
